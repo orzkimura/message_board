@@ -9,7 +9,7 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
-import com.google.protobuf.Timestamp;
+import java.sql.Timestamp;
 
 @Entity
 @NamedQueries({
